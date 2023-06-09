@@ -1,0 +1,16 @@
+pragma solidity ^0.8.0;
+contract ArrayIndex
+{
+    uint[] public array=[1,2,3,4,5,6,7];
+    function getArrayValue() public view returns(uint)
+    {
+        return array[3];
+    }
+    function addArrayValue() public view returns(uint)
+    {
+        return array[2]+array[4];
+
+    }
+
+
+}
